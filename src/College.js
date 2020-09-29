@@ -27,6 +27,11 @@ export default function College({ college, collegeRef }) {
           </div>
           <div className="college-tags-right">#{college.ranking} </div>
         </div>
+        <div className="promoted-ribbon">
+          <p class="ribbon">
+            <strong class="ribbon-content">PROMOTED</strong>
+          </p>
+        </div>
       </div>
       <div className="college-details-wrapper">
         <div className="college-details-left">

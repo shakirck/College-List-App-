@@ -5,7 +5,11 @@
 .Home {
   min-height: 100vh;
 }
-
+.heading {
+  text-transform: capitalize;
+  width: 100%;
+  margin: 20px;
+}
 .CollegesList {
   display: flex;
   flex-wrap: wrap;
@@ -45,8 +49,8 @@
 .rating-wrapper {
   background-color: #f5a626;
   position: absolute;
-  top: 1vh;
-  left: 75%;
+  top: 3.5vh;
+  left: 80%;
   z-index: 10;
   padding: 0px 10px;
   color: white;
@@ -258,4 +262,95 @@
   height: 3px;
   border-radius: 100%;
   background-color: white;
+}
+
+.promoted-ribbon {
+  position: absolute;
+  top: -30px;
+  left: 80%;
+  width: 100%;
+}
+.ribbon {
+  position: relative;
+  font-size: 0.8rem;
+  width: 20%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #68a7ff;
+  color: #fff;
+  /* text-align: center; */
+  z-index: 10;
+}
+.ribbon:before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: -30px;
+  border: 15px solid #68a7ff;
+}
+.ribbon:before {
+  border-left-color: transparent;
+}
+@media only screen and (max-width: 1000px) {
+  .College {
+    flex-basis: 60%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .College {
+    flex-basis: 70%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .College {
+    flex-basis: 80%;
+  }
+  .rating-wrapper {
+    background-color: #f5a626;
+    position: absolute;
+    top: 3.5vh;
+    left: 66%;
+    z-index: 10;
+    width: 80px;
+    /* padding: 0px 10px; */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .rating-number {
+    font-size: 1rem;
+  }
+
+  .rating-max {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .College {
+    flex-basis: 100%;
+  }
+  .college-tags-wrapper {
+    flex-direction: column;
+    height: 100px;
+    top: 10%;
+    left: -25%;
+  }
+  .college-tags-left {
+    flex-direction: column;
+    height: 50%;
+  }
+  .ribbon {
+    font-size: 0.6rem;
+  }
 }
