@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14ecf4a35e2c3d012e43baf1550b72b3",
+    "revision": "0d8dafcbda1e9788221e00a0ac4fd439",
     "url": "/College-List-App-/index.html"
   },
   {
-    "revision": "c98b52e4fa955c34eb35",
-    "url": "/College-List-App-/static/css/main.605c788d.chunk.css"
+    "revision": "ffcb1da5ea2269369d94",
+    "url": "/College-List-App-/static/css/main.32877536.chunk.css"
   },
   {
     "revision": "2c81562c4365c79383c0",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/College-List-App-/static/js/2.69acc574.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c98b52e4fa955c34eb35",
+    "revision": "ffcb1da5ea2269369d94",
     "url": "/College-List-App-/static/js/main.e4300cd6.chunk.js"
   },
   {

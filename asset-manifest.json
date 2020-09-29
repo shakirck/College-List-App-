@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/College-List-App-/static/css/main.605c788d.chunk.css",
+    "main.css": "/College-List-App-/static/css/main.32877536.chunk.css",
     "main.js": "/College-List-App-/static/js/main.e4300cd6.chunk.js",
     "main.js.map": "/College-List-App-/static/js/main.e4300cd6.chunk.js.map",
     "runtime-main.js": "/College-List-App-/static/js/runtime-main.669401a8.js",
@@ -8,9 +8,9 @@
     "static/js/2.69acc574.chunk.js": "/College-List-App-/static/js/2.69acc574.chunk.js",
     "static/js/2.69acc574.chunk.js.map": "/College-List-App-/static/js/2.69acc574.chunk.js.map",
     "index.html": "/College-List-App-/index.html",
-    "precache-manifest.64c83081c1b9158e1c7686852299e5df.js": "/College-List-App-/precache-manifest.64c83081c1b9158e1c7686852299e5df.js",
+    "precache-manifest.69faff25b45ede40125ccd54ebd346d8.js": "/College-List-App-/precache-manifest.69faff25b45ede40125ccd54ebd346d8.js",
     "service-worker.js": "/College-List-App-/service-worker.js",
-    "static/css/main.605c788d.chunk.css.map": "/College-List-App-/static/css/main.605c788d.chunk.css.map",
+    "static/css/main.32877536.chunk.css.map": "/College-List-App-/static/css/main.32877536.chunk.css.map",
     "static/js/2.69acc574.chunk.js.LICENSE.txt": "/College-List-App-/static/js/2.69acc574.chunk.js.LICENSE.txt",
     "static/media/college_02.jpg": "/College-List-App-/static/media/college_02.619ee97e.jpg",
     "static/media/loading.gif": "/College-List-App-/static/media/loading.08930f64.gif"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.669401a8.js",
     "static/js/2.69acc574.chunk.js",
-    "static/css/main.605c788d.chunk.css",
+    "static/css/main.32877536.chunk.css",
     "static/js/main.e4300cd6.chunk.js"
   ]
 }
