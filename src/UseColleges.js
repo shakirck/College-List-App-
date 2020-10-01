@@ -13,7 +13,7 @@ export default function UseColleges(startNumber) {
       setcolleges((prev) => [...prev, ...data]);
       setmore(data.length > 0);
       setloading(false);
-    }, 1000);
+    }, 10000);
   }, [startNumber]);
 
   return { loading, more, colleges };
